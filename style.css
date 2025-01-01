@@ -16,7 +16,8 @@
 body
 {
     background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);justify-content: center;
+    height:fit-content;
        
 }
 
@@ -28,7 +29,7 @@ nav{
     color: white  ;
     display: flex;
     justify-content: space-between;
-    height: px;
+    height: 50px;
     align-items: center;
     max-width: 1500px;
     margin: 0 auto;
@@ -38,11 +39,13 @@ flex-direction: column;
 }
 
 
+
 .search-container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-left: 30px;
 }
 .search-container input {
     height: 30px;
@@ -130,9 +133,11 @@ main section
 
 .movie-info .movie-genre{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-block: 5px;
     overflow-x: auto;
+
+    
 }
 .movie-info .movie-genre p
 { 
@@ -262,6 +267,7 @@ main section
     .movie-info 
     {
         padding-inline: 30px ;
+       
     }
 }
 
@@ -279,7 +285,7 @@ main section
 
 
 
-@media screen and (max-width:200px)
+@media screen and (max-width:350px)
 {
 .c800
 {
@@ -290,3 +296,4 @@ main section
     background-color: #000000;
 }
 }
+
