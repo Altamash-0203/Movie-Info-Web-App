@@ -4,6 +4,7 @@ let inputBox = document.querySelector('.inputBox')
 
 // funtion to fetch movie data using API
 
+
 const getMovieinfo = async (movie) => {
     try {
    
