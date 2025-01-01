@@ -8,8 +8,9 @@ let inputBox = document.querySelector('.inputBox')
 const getMovieinfo = async (movie) => {
     try {
    
-    const myAPI = "e2b2db74"
-    const url = `http://www.omdbapi.com/?apikey=${myAPI}&t=${movie}`;
+    const BASE_URL = 'https://www.omdbapi.com/';
+    const API_KEY = 'e2b2db74';
+    const url = `${BASE_URL}?apikey=${API_KEY}&t=${movie}`;
 
     const response = await fetch(url);
 
