@@ -52,8 +52,14 @@ flex-direction: column;
     background-color: rgb(180, 166, 166);
    
      
+
+
 }
 
+
+.search-container input.c800{
+    background-color: #000000;
+}
 
 .search-container button:hover
 {
@@ -278,5 +284,6 @@ main section
     justify-content: center;
     align-items: center;
     margin-left: 110px;
+    background-color: #000000;
 }
 }
