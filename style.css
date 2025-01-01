@@ -58,8 +58,10 @@ flex-direction: column;
 
 
 .search-container input.c800{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #0c0a75;
+    color: #9b9393;
+    width: 45px;
+    border-radius: 15px 0 15px 0;
 }
 
 .search-container button:hover
